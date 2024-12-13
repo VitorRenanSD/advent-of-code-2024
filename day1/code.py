@@ -1,4 +1,4 @@
-def calculaDistancia(caminhoArquivo):
+def calcDistance(caminhoArquivo):
     listaEsquerda = []
     listaDireita = []
     
@@ -18,4 +18,4 @@ def calculaDistancia(caminhoArquivo):
     
     return distanciaTotal
 
-print(calculaDistancia(r'C:\Users\x\Desktop\AoC\day1input.txt'))
+print(calcDistance(r'C:\Users\x\Desktop\AoC\day1input.txt'))
